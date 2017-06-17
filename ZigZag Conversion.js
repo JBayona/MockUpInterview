@@ -22,7 +22,7 @@ var convert = function(s, numRows) {
     var mid;
     var i;
     var j;
-    
+    //Special case
     if (numRows === 1) {
         return s;
     }
